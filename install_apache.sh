@@ -8,7 +8,9 @@ then
 else
   echo "apache seems not running, starting the service now..."
  sudo systemctl start apache2
-sudo systemctl enable apache2
+ sudo systemctl enable apache2
+ echo "Print status of apache service now"
+ sudo systemctl status apache2
 fi
 echo "Adding users now"
 
