@@ -24,3 +24,4 @@ for user in $users
 
  done
 
+echo "Add command to install docker pkgs in ubuntu"
