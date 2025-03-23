@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Installing apache2 pkg"
+#echo "Installing apache2 pkg"
 sudo apt update
 sudo apt install apache2 curl wget -y
 if [ -f /var/run/apache2/apache2.pid ];
